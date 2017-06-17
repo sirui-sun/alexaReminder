@@ -1,0 +1,11 @@
+{
+	"name": "alexClient",
+	"version": "0.0.1",
+	"description": "client that takes in the Alexa commands",
+	"files": ["index.js"],
+	"dependencies" :
+	  { "moment" : "latest"
+	  , "guid" : "latest"
+	  , "aws-sdk" : "latest"
+	  }
+}

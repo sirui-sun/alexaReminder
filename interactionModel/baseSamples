@@ -1,0 +1,12 @@
+SetReminder remind me in {Duration} to {ReminderContent}
+SetReminder remind me to {ReminderContent} {Date} at {Time}
+SetReminder remind me to {ReminderContent} {Date} 
+SetReminder remind me to {ReminderContent} {Date} {Time}
+SetReminder remind me to {ReminderContent} in {Duration}
+SetReminder remind me to {ReminderContent} on {Date}
+SetReminder remind me to {ReminderContent} on {Date} at {Time}
+SetReminder remind me to {ReminderContent} at {Time} on {Date}
+SetReminder remind me to {ReminderContent} on {Date} 
+SetReminder remind me to {ReminderContent} on {Date} at {Time}
+SetReminder remind me to {ReminderContent} at {Time} on {Date}
+ 

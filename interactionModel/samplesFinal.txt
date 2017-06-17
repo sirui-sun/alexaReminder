@@ -1,0 +1,99 @@
+SetReminder remind me in {Duration} to {call|ReminderContent}
+SetReminder remind me in {Duration} to {call Donnie|ReminderContent}
+SetReminder remind me in {Duration} to {call the doctor|ReminderContent}
+SetReminder remind me in {Duration} to {call Donnie for lunch|ReminderContent}
+SetReminder remind me in {Duration} to {call the doctor about surgery|ReminderContent}
+SetReminder remind me in {Duration} to {call the doctor about leg surgery|ReminderContent}
+SetReminder remind me in {Duration} to {call the doctor's office about leg surgery|ReminderContent}
+SetReminder remind me in {Duration} to {call the doctor's office about exams and checkups|ReminderContent}
+SetReminder remind me in {Duration} to {call the doctor's office about leg exams and checkups |ReminderContent}
+SetReminder remind me to {call|ReminderContent} {Date} at {Time}
+SetReminder remind me to {call Donnie|ReminderContent} {Date} at {Time}
+SetReminder remind me to {call the doctor|ReminderContent} {Date} at {Time}
+SetReminder remind me to {call Donnie for lunch|ReminderContent} {Date} at {Time}
+SetReminder remind me to {call the doctor about surgery|ReminderContent} {Date} at {Time}
+SetReminder remind me to {call the doctor about leg surgery|ReminderContent} {Date} at {Time}
+SetReminder remind me to {call the doctor's office about leg surgery|ReminderContent} {Date} at {Time}
+SetReminder remind me to {call the doctor's office about exams and checkups|ReminderContent} {Date} at {Time}
+SetReminder remind me to {call the doctor's office about leg exams and checkups |ReminderContent} {Date} at {Time}
+SetReminder remind me to {call|ReminderContent} {Date}
+SetReminder remind me to {call Donnie|ReminderContent} {Date}
+SetReminder remind me to {call the doctor|ReminderContent} {Date}
+SetReminder remind me to {call Donnie for lunch|ReminderContent} {Date}
+SetReminder remind me to {call the doctor about surgery|ReminderContent} {Date}
+SetReminder remind me to {call the doctor about leg surgery|ReminderContent} {Date}
+SetReminder remind me to {call the doctor's office about leg surgery|ReminderContent} {Date}
+SetReminder remind me to {call the doctor's office about exams and checkups|ReminderContent} {Date}
+SetReminder remind me to {call the doctor's office about leg exams and checkups |ReminderContent} {Date}
+SetReminder remind me to {call|ReminderContent} {Date} {Time}
+SetReminder remind me to {call Donnie|ReminderContent} {Date} {Time}
+SetReminder remind me to {call the doctor|ReminderContent} {Date} {Time}
+SetReminder remind me to {call Donnie for lunch|ReminderContent} {Date} {Time}
+SetReminder remind me to {call the doctor about surgery|ReminderContent} {Date} {Time}
+SetReminder remind me to {call the doctor about leg surgery|ReminderContent} {Date} {Time}
+SetReminder remind me to {call the doctor's office about leg surgery|ReminderContent} {Date} {Time}
+SetReminder remind me to {call the doctor's office about exams and checkups|ReminderContent} {Date} {Time}
+SetReminder remind me to {call the doctor's office about leg exams and checkups |ReminderContent} {Date} {Time}
+SetReminder remind me to {call|ReminderContent} in {Duration}
+SetReminder remind me to {call Donnie|ReminderContent} in {Duration}
+SetReminder remind me to {call the doctor|ReminderContent} in {Duration}
+SetReminder remind me to {call Donnie for lunch|ReminderContent} in {Duration}
+SetReminder remind me to {call the doctor about surgery|ReminderContent} in {Duration}
+SetReminder remind me to {call the doctor about leg surgery|ReminderContent} in {Duration}
+SetReminder remind me to {call the doctor's office about leg surgery|ReminderContent} in {Duration}
+SetReminder remind me to {call the doctor's office about exams and checkups|ReminderContent} in {Duration}
+SetReminder remind me to {call the doctor's office about leg exams and checkups |ReminderContent} in {Duration}
+SetReminder remind me to {call|ReminderContent} on {Date}
+SetReminder remind me to {call Donnie|ReminderContent} on {Date}
+SetReminder remind me to {call the doctor|ReminderContent} on {Date}
+SetReminder remind me to {call Donnie for lunch|ReminderContent} on {Date}
+SetReminder remind me to {call the doctor about surgery|ReminderContent} on {Date}
+SetReminder remind me to {call the doctor about leg surgery|ReminderContent} on {Date}
+SetReminder remind me to {call the doctor's office about leg surgery|ReminderContent} on {Date}
+SetReminder remind me to {call the doctor's office about exams and checkups|ReminderContent} on {Date}
+SetReminder remind me to {call the doctor's office about leg exams and checkups |ReminderContent} on {Date}
+SetReminder remind me to {call|ReminderContent} on {Date} at {Time}
+SetReminder remind me to {call Donnie|ReminderContent} on {Date} at {Time}
+SetReminder remind me to {call the doctor|ReminderContent} on {Date} at {Time}
+SetReminder remind me to {call Donnie for lunch|ReminderContent} on {Date} at {Time}
+SetReminder remind me to {call the doctor about surgery|ReminderContent} on {Date} at {Time}
+SetReminder remind me to {call the doctor about leg surgery|ReminderContent} on {Date} at {Time}
+SetReminder remind me to {call the doctor's office about leg surgery|ReminderContent} on {Date} at {Time}
+SetReminder remind me to {call the doctor's office about exams and checkups|ReminderContent} on {Date} at {Time}
+SetReminder remind me to {call the doctor's office about leg exams and checkups |ReminderContent} on {Date} at {Time}
+SetReminder remind me to {call|ReminderContent} at {Time} on {Date}
+SetReminder remind me to {call Donnie|ReminderContent} at {Time} on {Date}
+SetReminder remind me to {call the doctor|ReminderContent} at {Time} on {Date}
+SetReminder remind me to {call Donnie for lunch|ReminderContent} at {Time} on {Date}
+SetReminder remind me to {call the doctor about surgery|ReminderContent} at {Time} on {Date}
+SetReminder remind me to {call the doctor about leg surgery|ReminderContent} at {Time} on {Date}
+SetReminder remind me to {call the doctor's office about leg surgery|ReminderContent} at {Time} on {Date}
+SetReminder remind me to {call the doctor's office about exams and checkups|ReminderContent} at {Time} on {Date}
+SetReminder remind me to {call the doctor's office about leg exams and checkups |ReminderContent} at {Time} on {Date}
+SetReminder remind me to {call|ReminderContent} on {Date}
+SetReminder remind me to {call Donnie|ReminderContent} on {Date}
+SetReminder remind me to {call the doctor|ReminderContent} on {Date}
+SetReminder remind me to {call Donnie for lunch|ReminderContent} on {Date}
+SetReminder remind me to {call the doctor about surgery|ReminderContent} on {Date}
+SetReminder remind me to {call the doctor about leg surgery|ReminderContent} on {Date}
+SetReminder remind me to {call the doctor's office about leg surgery|ReminderContent} on {Date}
+SetReminder remind me to {call the doctor's office about exams and checkups|ReminderContent} on {Date}
+SetReminder remind me to {call the doctor's office about leg exams and checkups |ReminderContent} on {Date}
+SetReminder remind me to {call|ReminderContent} on {Date} at {Time}
+SetReminder remind me to {call Donnie|ReminderContent} on {Date} at {Time}
+SetReminder remind me to {call the doctor|ReminderContent} on {Date} at {Time}
+SetReminder remind me to {call Donnie for lunch|ReminderContent} on {Date} at {Time}
+SetReminder remind me to {call the doctor about surgery|ReminderContent} on {Date} at {Time}
+SetReminder remind me to {call the doctor about leg surgery|ReminderContent} on {Date} at {Time}
+SetReminder remind me to {call the doctor's office about leg surgery|ReminderContent} on {Date} at {Time}
+SetReminder remind me to {call the doctor's office about exams and checkups|ReminderContent} on {Date} at {Time}
+SetReminder remind me to {call the doctor's office about leg exams and checkups |ReminderContent} on {Date} at {Time}
+SetReminder remind me to {call|ReminderContent} at {Time} on {Date}
+SetReminder remind me to {call Donnie|ReminderContent} at {Time} on {Date}
+SetReminder remind me to {call the doctor|ReminderContent} at {Time} on {Date}
+SetReminder remind me to {call Donnie for lunch|ReminderContent} at {Time} on {Date}
+SetReminder remind me to {call the doctor about surgery|ReminderContent} at {Time} on {Date}
+SetReminder remind me to {call the doctor about leg surgery|ReminderContent} at {Time} on {Date}
+SetReminder remind me to {call the doctor's office about leg surgery|ReminderContent} at {Time} on {Date}
+SetReminder remind me to {call the doctor's office about exams and checkups|ReminderContent} at {Time} on {Date}
+SetReminder remind me to {call the doctor's office about leg exams and checkups |ReminderContent} at {Time} on {Date}

@@ -1,0 +1,9 @@
+call|ReminderContent
+call Donnie|ReminderContent
+call the doctor|ReminderContent
+call Donnie for lunch|ReminderContent
+call the doctor about surgery|ReminderContent
+call the doctor about leg surgery|ReminderContent
+call the doctor's office about leg surgery|ReminderContent
+call the doctor's office about exams and checkups|ReminderContent
+call the doctor's office about leg exams and checkups |ReminderContent

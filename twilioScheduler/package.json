@@ -1,0 +1,12 @@
+{
+	"name": "twilioScheduler",
+	"version": "0.0.1",
+	"description": "scheduled job that calls Twilio",
+	"files": ["index.js"],
+	"dependencies" :
+	  { "moment" : "latest"
+	  , "promise" : "latest"
+	  , "aws-sdk" : "latest"
+	  , "twilio" : "latest"
+	  }
+}

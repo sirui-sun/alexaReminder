@@ -1,0 +1,9 @@
+RemindersTable
+- Key 				GUID
+- ReminderTime 		UNIX Timestamp
+- ReminderContent	String
+- Sent				Boolean
+- UserID			User
+
+Last checked
+- LastChecked 		UNIX Timestamp
