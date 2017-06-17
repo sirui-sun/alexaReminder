@@ -107,24 +107,35 @@ function handleSetReminderRequest(intent, session, callback) {
     // parse time, and add an entry to DB with content and time
     var moment = require("moment");
     var Guid = require('guid');
+    var time_zone_offset = moment.duration("PT7H");          // assume user is in PST, increment time by 7 hours
 
     // if duration, only consider duration
     if (duration) {
         var now = moment();
         var duration = moment.duration(duration);
         reminderDateTime = now.add(duration);
-        reminderDateTimeString = reminderDateTime.local().calendar();
+        reminderDateTimeString = reminderDateTime.subtract(time_zone_offset).calendar();      // string for display
+        reminderDateTime.add(time_zone_offset); 
         msg = "Okay, I will remind you to " + reminderContent + " on " + reminderDateTimeString;
     
     // else, construct from date or time
     } else {
-        // set default values for date and time if they're not provided
-        // TODO: could automatically set date to tomorrow if the hour has alreayd passed for today
-        date = date ? date : moment().format("YYYY-MM-DD");
-        time = time ? time : "08";
+        time = time ? time : "08";                          // if no time provided, assume 8 AM
+        // infer date based on time
+        if (!date) {
+            var todayString = moment().format("YYYY-MM-DD") + " " + time;
+            var todayMoment = moment(todayString, "YYYY-MM-DD HH:mm").add(time_zone_offset);
+            // if today + hour is in the past, then increment date by 24 hours
+            if (todayMoment < moment()) {
+                todayMoment.add(moment.duration("PT24H"));
+            }
+            todayMoment.subtract(time_zone_offset);
+            date = todayMoment.format("YYYY-MM-DD");
+        }
         var datetimeString = date + " " + time;
-        reminderDateTime = moment(datetimeString, "YYYY-MM-DD HH:mm");
-        reminderDateTimeString = reminderDateTime.local().calendar();
+        reminderDateTime = moment(datetimeString, "YYYY-MM-DD HH:mm")
+        reminderDateTimeString = reminderDateTime.calendar();       // read out the PST time...
+        reminderDateTime = reminderDateTime.add(time_zone_offset);  // ...but record the GMT time 
         msg = "Okay, I will remind you to " + reminderContent + " on " + reminderDateTimeString;
     }
 

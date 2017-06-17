@@ -1,7 +1,8 @@
-- split out the projects and their package dependencies
-- Redo git repo
-- Alexa still returns the time in UTC
 - Test the major paths
 
 DONE
 ====
+- split out the projects and their package dependencies
+- Alexa still returns the time in UTC
+- Redo git repo
+- infer the date based on the time
